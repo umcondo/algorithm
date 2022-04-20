@@ -8,4 +8,3 @@ numbers.forEach((elm) => {
 for (elm of numList) {
   answer += elm;
 }
-return answer;
