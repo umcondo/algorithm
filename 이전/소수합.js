@@ -11,8 +11,6 @@ for (let i = 0; i < nums.length - 2; i++) {
 for (elm of resultNums) {
   ans(elm);
 }
-
-// 함수 안의 값이 모두 참일때 result를 하나 더한다.
 function ans(sum) {
   for (let l = 2; l <= Math.sqrt(sum); l++) {
     if (sum % l === 0) return false;
